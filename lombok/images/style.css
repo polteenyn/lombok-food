@@ -1,0 +1,398 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1196px;
+}
+
+.footer {
+    background-color: cadetblue;
+}
+
+.footer__inner {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.footer__inner-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 41px;
+    font-family: "Lilita One";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer__inner-logo {
+    display: flex;
+}
+
+.logo {
+    color: #FFB803;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.logo2 {
+    color: #FFF;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.title {
+    color: #FFB803;
+    font-family: "Lilita One";
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text {
+    color: #FFF;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 39px;
+    max-width: 685px;
+}
+
+.button {
+    border-radius: 30px;
+    background: #FFB803;
+    box-shadow: 0px 5px 18px 2px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    display: flex;
+    padding: 6px 34px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 462px;
+    background-color: chartreuse;
+}
+
+.block2-title {
+    color: #FFB803;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lilita One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-bottom: 43px;
+}
+
+.block2-img {
+    max-width: 341px;
+    max-height: 341px;
+}
+
+.block2-blocks {
+    display: flex;
+    gap: 80px;
+}
+
+.titleblocks {
+    color: #FFB803;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lilita One";
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textblocks {
+    color: #000;
+    font-family: "Lilita One";
+    text-align: center;
+    max-width: 334px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+.priceblocks {
+    color: #FFB803;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block3-bckg {
+    background-color: #FFB803;
+}
+
+.block3-img {
+    max-width: 701px;
+    max-height: 496px;
+    border-radius: 500px; 
+    box-shadow: 0 0 7px #666;
+    margin-right: 100px;
+    margin-top: 43px;
+}
+
+.block3-title {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lilita One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block3-text {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    min-width: 350px;
+    margin-bottom: 45px;
+}
+
+.block3-button {
+    border-radius: 30px;
+    background: #FFB803;
+    box-shadow: 0px 5px 18px 2px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    display: flex;
+    padding: 6px 34px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.block3__inner {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.block4 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-color: coral;
+}
+
+.block4__inner {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.block4-title {
+    color: #161616;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 34px;
+    margin-top: 85px;
+}
+
+.block4-text {
+    color: #000;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 888px;
+}
+
+.block5 {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-color: rgb(55, 129, 240);
+}
+
+.block5__inner {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.block5-title {
+    color: #161616;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 114px;
+}
+
+.block5-text {
+    color: #000;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 888px;
+    margin-bottom: 63px;
+}
+
+.block5-input::placeholder {
+    color: #D3D3D3;
+}
+
+.block5-input {
+    width: 663px;
+    height: 83px;
+    margin: 0px;
+    color: #2b2929;
+    text-align: left;
+    padding: 40px 13px;
+    font-family: "Asap Condensed";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.block5-button {
+    width: 324px;
+    height: 83px;
+    margin: 0px;
+    background: #FFB803;
+    color: #161616;
+    text-align: center;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header {
+    background: #161616;
+}
+
+.header-title {
+    display: flex;
+    margin-top: 176px;
+    margin-bottom: 14px;
+}
+
+.header-title1 {
+    color: #FFB803;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header-title2 {
+    color: #FFF;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.header-text {
+    max-width: 427px;
+    color: #FFF;
+    font-family: "Averia Libre";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.header-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    max-width: 49px;
+}
+
+.header__menu-title {
+    color: #FFF;
+    font-family: "Lilita One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.header__menu-text {
+    color: #FFF;
+    font-family: "Averia Libre";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 52px;
+    margin-top: 176px;
+    margin-bottom: 161px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bckg {
+    background: #161616;
+}
