@@ -23,19 +23,19 @@ a {
     max-width: 1196px;
 }
 
-.footer {
-    background-color: cadetblue;
+.footer_bckg {
+    background-color: darkorchid;
 }
 
 .footer__inner {
     display: flex;
-    margin-top: 50px;
     justify-content: space-between;
 }
 
 .footer__inner-menu {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 
 .menu {
@@ -55,6 +55,7 @@ a {
     font-family: "Lilita One";
     font-size: 36px;
     font-weight: 400;
+    margin-top: 50px;
 }
 
 .logo2 {
@@ -62,6 +63,7 @@ a {
     font-family: "Lilita One";
     font-size: 36px;
     font-weight: 400;
+    margin-top: 50px;
 }
 
 .title {
@@ -102,7 +104,6 @@ a {
     align-items: center;
     margin: 0 auto;
     min-height: 462px;
-    background-color: chartreuse;
 }
 
 .block2-title {
@@ -159,6 +160,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 43px;
 }
 
 .block3-bckg {
@@ -171,7 +173,6 @@ a {
     border-radius: 500px; 
     box-shadow: 0 0 7px #666;
     margin-right: 100px;
-    margin-top: 43px;
 }
 
 .block3-title {
@@ -218,11 +219,14 @@ a {
     margin: 0 auto;
 }
 
+.block4-bckg {
+    background-color: coral;
+}
+
 .block4 {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    background-color: coral;
 }
 
 .block4__inner {
@@ -257,7 +261,7 @@ a {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    background-color: rgb(55, 129, 240);
+    margin-bottom: 169px;
 }
 
 .block5__inner {
@@ -290,6 +294,10 @@ a {
 
 .block5-input::placeholder {
     color: #D3D3D3;
+}
+
+.block5-inputbutton {
+    box-shadow: 0px 0px 30px 6px rgba(0, 0, 0, 0.15);
 }
 
 .block5-input {
@@ -325,7 +333,6 @@ a {
 
 .header-title {
     display: flex;
-    margin-top: 176px;
     margin-bottom: 14px;
 }
 
@@ -334,6 +341,7 @@ a {
     font-family: "Lilita One";
     font-size: 36px;
     font-weight: 400;
+    margin-top: 176px;
 }
 
 .header-title2 {
@@ -341,6 +349,7 @@ a {
     font-family: "Lilita One";
     font-size: 36px;
     font-weight: 400;
+    margin-top: 176px;
 }
 
 .header-text {
