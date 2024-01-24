@@ -24,7 +24,10 @@ a {
 }
 
 .footer_bckg {
-    background-color: darkorchid;
+    background: url(bckg.png) rgba(0, 0, 0, 0.849) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 105px;
 }
 
 .footer__inner {
@@ -44,6 +47,7 @@ a {
     font-family: "Lilita One";
     font-size: 24px;
     font-weight: 400;
+    color: #FFB803;
 }
 
 .footer__inner-logo {
@@ -81,6 +85,10 @@ a {
     line-height: 38px;
     margin-bottom: 39px;
     max-width: 685px;
+}
+
+.text span {
+    color: #FFB803;
 }
 
 .button {
@@ -220,7 +228,8 @@ a {
 }
 
 .block4-bckg {
-    background-color: coral;
+    background: url(bckg2.png) rgba(0, 0, 0, 0.749) 50% / cover no-repeat;
+    padding-bottom: 114px;;
 }
 
 .block4 {
@@ -283,6 +292,8 @@ a {
 .block5-text {
     color: #000;
     text-align: center;
+    display: flex;
+    margin: auto;
     font-family: "Lilita One";
     font-size: 36px;
     font-style: normal;
@@ -368,6 +379,7 @@ a {
 }
 
 .icon {
+    margin-top: 20px;
     max-width: 49px;
 }
 
