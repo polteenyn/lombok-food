@@ -26,7 +26,6 @@ a {
 .footer_bckg {
     background: url(bckg.png) rgba(0, 0, 0, 0.849) 50% / cover no-repeat;
     background-repeat: no-repeat;
-    background-size: 100%;
     padding-bottom: 105px;
 }
 
