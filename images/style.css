@@ -123,6 +123,7 @@ a {
     font-weight: 400;
     line-height: normal; 
     margin-bottom: 43px;
+    margin-top: 30px;
 }
 
 .block2-img {
@@ -211,7 +212,6 @@ a {
     color: #FFF;
     display: flex;
     padding: 6px 34px;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -244,7 +244,7 @@ a {
 }
 
 .block4-title {
-    color: #161616;
+    color: #FFF;
     text-align: center;
     font-family: "Lilita One";
     font-size: 64px;
@@ -256,7 +256,7 @@ a {
 }
 
 .block4-text {
-    color: #000;
+    color: #FFF;
     text-align: center;
     font-family: "Lilita One";
     font-size: 36px;
@@ -418,10 +418,42 @@ a {
     background: #161616;
 }
 
+@media (min-width: 1220px) {
+    .block3-text {
+        max-width: 350px;
+    }
+
+    .block3-leftiright {
+        display: flex;
+    }
+
+    .block3-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-leftiright {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .header-text {
+        max-width: 407px;
+        font-size: 27px;
+    }
+
+    .block3-img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 @media (max-width: 1220px) {
     .container {
         margin: 0 auto;
-        max-width: 920px;
+        max-width: 768px;
         flex-wrap: wrap;
     }
 
@@ -429,5 +461,170 @@ a {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .logo .logo2 {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .footer__inner-menu {
+        margin-top: 40px;
+    }
+
+    .menu {
+        font-size: 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .logo2 {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 54px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .button {
+        font-size: 30px;
+        padding: 4px 28px; 
+    }
+
+    .block2-title {
+        font-size: 54px;
+    }
+
+    .block2-img {
+        max-width: 290px;
+        max-height: 290px;
+    }
+
+    .titleblocks {
+        font-size: 32px;
+    }
+
+    .textblocks {
+        font-size: 22px;
+    }
+
+    .priceblocks {
+        font-size: 32px;
+    }
+
+    .block2-block {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .block3-img {
+        max-width: 341px;
+        margin-right: 45px;
+    }
+
+    .block3-title {
+        font-size: 54px;
+    }
+
+    .block3-text {
+        font-size: 28px;
+    }
+
+    .block3-button {
+        font-size: 30px;
+        padding: 4px 28px; 
+        width: 240px;
+    }
+
+    .block3-leftiright {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block3-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .block4-title {
+        font-size: 54px;
+    }
+
+    .block4-text {
+        font-size: 30px;
+        max-width: 700px;
+    }
+
+    .block5-title {
+        font-size: 54px;
+    }
+
+    .block5-text {
+        font-size: 30px;
+        max-width: 700px;
+    }
+
+    .block5-inputbutton {
+        display: flex;
+        justify-content: center;
+        box-shadow: none;
+    }
+    .block5-input {
+        max-width: 303px;
+    }
+    .block5-button {
+        max-width: 230px;
+    }
+
+    .block5-button {
+        font-size: 32px;
+    }
+
+    .block5-input {
+        font-size: 32px;
+    }
+
+    .header-title1 {
+        font-size: 36px;
+        margin-top: 70px;
+    }
+
+    .header-title2 {
+        font-size: 36px;
+        margin-top: 70px;
+    }
+
+    .header-text {
+        font-size: 26px;
+        max-width: 627px;
+        text-align: center;
+    }
+
+    .header_left-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__menu {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__menu-text {
+        font-size: 22px;
+    }
+
+    .header__menu {
+        margin-bottom: 70px;
     }
 }
