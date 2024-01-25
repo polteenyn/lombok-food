@@ -139,7 +139,6 @@ a {
 .titleblocks {
     color: #FFB803;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Lilita One";
     text-align: center;
     font-size: 36px;
@@ -169,6 +168,8 @@ a {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px black;
 }
 
 .block3-bckg {
@@ -527,6 +528,8 @@ a {
     .block3-img {
         max-width: 341px;
         margin-right: 45px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .block3-title {
@@ -627,4 +630,184 @@ a {
     .header__menu {
         margin-bottom: 70px;
     }
+
+    @media (max-width: 768px) {
+        .container {
+            margin: 0 auto;
+            max-width: 420px;
+            flex-wrap: wrap;
+        }
+    
+        .block2-blocks {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .logo .logo2 {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    
+        .footer__inner-menu {
+            margin-top: 28px;
+        }
+    
+        .menu {
+            font-size: 12px;
+        }
+    
+        .logo {
+            font-size: 16px;
+        }
+    
+        .logo2 {
+            font-size: 16px;
+        }
+    
+        .title {
+            font-size: 42px;
+        }
+    
+        .text {
+            font-size: 22px;
+        }
+    
+        .button {
+            font-size: 22px;
+            padding: 2px 22px; 
+        }
+    
+        .block2-title {
+            font-size: 42px;
+        }
+    
+        .block2-img {
+            max-width: 240px;
+            max-height: 240px;
+        }
+    
+        .titleblocks {
+            font-size: 24px;
+        }
+    
+        .textblocks {
+            font-size: 14px;
+        }
+    
+        .priceblocks {
+            font-size: 24px;
+        }
+    
+        .block2-block {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .block3-img {
+            max-width: 261px;
+            margin-right: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    
+        .block3-title {
+            font-size: 42px;
+        }
+    
+        .block3-text {
+            font-size: 22px;
+        }
+    
+        .block3-button {
+            font-size: 24px;
+            padding: 2px 22px; 
+            width: 180px;
+        }
+    
+        .block3-leftiright {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .block3-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .block4-title {
+            font-size: 42px;
+        }
+    
+        .block4-text {
+            font-size: 24px;
+            max-width: 450px;
+        }
+    
+        .block5-title {
+            font-size: 42px;
+        }
+    
+        .block5-text {
+            font-size: 24px;
+            max-width: 450px;
+        }
+    
+        .block5-inputbutton {
+            display: flex;
+            justify-content: center;
+            box-shadow: none;
+        }
+        .block5-input {
+            max-width: 233px;
+        }
+        .block5-button {
+            max-width: 170px;
+        }
+    
+        .block5-button {
+            font-size: 24px;
+        }
+    
+        .block5-input {
+            font-size: 24px;
+        }
+    
+        .header-title1 {
+            font-size: 28px;
+            margin-top: 50px;
+        }
+    
+        .header-title2 {
+            font-size: 28px;
+            margin-top: 50px;
+        }
+    
+        .header-text {
+            font-size: 20px;
+            max-width: 457px;
+            text-align: center;
+        }
+    
+        .header_left-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .header__menu {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .header__menu-text {
+            font-size: 16px;
+        }
+    
+        .header__menu {
+            margin-bottom: 50px;
+        }
 }
