@@ -219,6 +219,7 @@ a {
     font-family: "Lilita One";
     font-size: 36px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .block3__inner {
@@ -416,4 +417,18 @@ a {
 
 .header-bckg {
     background: #161616;
+}
+
+@media (max-width: 1220px) {
+    .container {
+        margin: 0 auto;
+        max-width: 920px;
+        flex-wrap: wrap;
+    }
+
+    .block2-blocks {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
