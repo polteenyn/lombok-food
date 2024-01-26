@@ -47,6 +47,7 @@ a {
     font-size: 24px;
     font-weight: 400;
     color: #FFB803;
+    margin-top: 52px;
 }
 
 .footer__inner-logo {
@@ -419,6 +420,8 @@ a {
     background: #161616;
 }
 
+
+
 @media (min-width: 1220px) {
     .block3-text {
         max-width: 350px;
@@ -630,11 +633,13 @@ a {
     .header__menu {
         margin-bottom: 70px;
     }
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) 
+    {
         .container {
             margin: 0 auto;
-            max-width: 420px;
+            max-width: 387px;
             flex-wrap: wrap;
         }
     
@@ -642,6 +647,7 @@ a {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            gap: 25px;
         }
     
         .logo .logo2 {
@@ -650,7 +656,7 @@ a {
         }
     
         .footer__inner-menu {
-            margin-top: 28px;
+            margin-top: 48px;
         }
     
         .menu {
@@ -671,6 +677,7 @@ a {
     
         .text {
             font-size: 22px;
+            max-width: 360px;
         }
     
         .button {
@@ -680,6 +687,8 @@ a {
     
         .block2-title {
             font-size: 42px;
+            margin-top: 20px;
+            margin-bottom: 25px;
         }
     
         .block2-img {
@@ -705,36 +714,47 @@ a {
             flex-direction: column;
         }
     
-        .block3-img {
-            max-width: 261px;
-            margin-right: 30px;
+        .block3-left {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
             margin-top: 15px;
-            margin-bottom: 15px;
+        }
+
+        .block3-img {
+            max-width: 231px;
+            margin: 0 auto;
         }
     
         .block3-title {
-            font-size: 42px;
+            font-size: 32px;
+            margin-top: 10px;
         }
     
         .block3-text {
-            font-size: 22px;
+            font-size: 16px;
+            width: 170px;
+            margin-bottom: 25px;
         }
     
         .block3-button {
-            font-size: 24px;
-            padding: 2px 22px; 
-            width: 180px;
+            font-size: 14px;
+            padding: 5px 22px;
+            width: 130px;
         }
     
         .block3-leftiright {
             display: flex;
             justify-content: center;
+            flex-direction: column;
         }
     
         .block3-right {
             display: flex;
-            flex-direction: column;
             justify-content: center;
+            text-align: center;
+            align-items: center;
         }
     
         .block4-title {
@@ -776,18 +796,18 @@ a {
         }
     
         .header-title1 {
-            font-size: 28px;
-            margin-top: 50px;
+            font-size: 24px;
+            margin-top: 45px;
         }
     
         .header-title2 {
-            font-size: 28px;
-            margin-top: 50px;
+            font-size: 24px;
+            margin-top: 45px;
         }
     
         .header-text {
-            font-size: 20px;
-            max-width: 457px;
+            font-size: 16px;
+            max-width: 290px;
             text-align: center;
         }
     
@@ -798,16 +818,25 @@ a {
         }
     
         .header__menu {
-            margin-top: 50px;
+            margin-top: 45px;
             display: flex;
             justify-content: center;
         }
     
         .header__menu-text {
-            font-size: 16px;
+            font-size: 13px;
         }
     
         .header__menu {
-            margin-bottom: 50px;
+            margin-bottom: 45px;
+        }
+
+        .menu {
+            gap: 10px;
+        }
+
+        .header__menu-title {
+            font-size: 20px;
+            margin-bottom: 10px;
         }
 }
