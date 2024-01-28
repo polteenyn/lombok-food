@@ -639,7 +639,7 @@ a {
     {
         .container {
             margin: 0 auto;
-            max-width: 387px;
+            max-width: 360px;
             flex-wrap: wrap;
         }
     
@@ -661,14 +661,17 @@ a {
     
         .menu {
             font-size: 12px;
+            margin-top: 20px;
         }
     
         .logo {
             font-size: 16px;
+            margin-top: 20px;
         }
     
         .logo2 {
             font-size: 16px;
+            margin-top: 20px;
         }
     
         .title {
@@ -772,7 +775,7 @@ a {
     
         .block5-text {
             font-size: 24px;
-            max-width: 450px;
+            max-width: 350px;
         }
     
         .block5-inputbutton {
@@ -781,18 +784,18 @@ a {
             box-shadow: none;
         }
         .block5-input {
-            max-width: 233px;
+            max-width: 203px;
         }
         .block5-button {
-            max-width: 170px;
+            max-width: 150px;
         }
     
         .block5-button {
-            font-size: 24px;
+            font-size: 18px;
         }
     
         .block5-input {
-            font-size: 24px;
+            font-size: 18px;
         }
     
         .header-title1 {
